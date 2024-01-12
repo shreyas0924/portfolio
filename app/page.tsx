@@ -1,7 +1,10 @@
+import { About } from "@/components/about";
+import Projects from "@/components/projects";
 export default function Home() {
   return (
-    <main className=" ">
-      <div>Hello World</div>
+    <main className="">
+      <About />
+      <Projects />
     </main>
   )
 }
