@@ -14,7 +14,7 @@ const Work = () => {
           >
             Seminarroom
           </Link>
-          <span className='text-sm text-gray-400'>Oct 2023 - Jan 2024</span>
+          <span className='text-sm text-gray-400'>10/23 - 01/24</span>
         </div>
         <p className='italic text-sm font-light'>Full Stack Developer Intern</p>
         <ul className='list-disc pl-4 pt-3'>
@@ -31,9 +31,9 @@ const Work = () => {
         </ul>
       </div>
       <div className='pb-8 mt-6'>
-        <div className='flex justify-between items-center gap-2 '>
+        <div className='flex justify-between items-center gap-1'>
           <h4 className='font-semibold text-md'>Softnerve Technologies</h4>
-          <span className='text-sm text-gray-400'>Feb 2023 - Dec 2023</span>
+          <span className='text-sm text-gray-400'>02/23 - 03/23</span>
         </div>
         <p className='italic text-sm font-light'>Frontend Developer Intern</p>
         <ul className='list-disc pl-4 pt-3'>

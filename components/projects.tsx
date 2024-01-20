@@ -1,11 +1,9 @@
 import React from 'react'
 
-
-
 const Projects = () => {
   return (
     <main>
-      <div className='mt-10 '>Projects</div>
+      <h3 className='text-xl font-bold mb-4'>Projects</h3>
     </main>
   )
 }
