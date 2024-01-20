@@ -6,11 +6,11 @@ const Work = () => {
     <section className='max-w-2xl mx-auto my-8 border-b border-gray-600'>
       <h3 className='text-xl font-bold mb-4'>Experience</h3>
       <div className='space-y-0'>
-        <div className='flex justify-between'>
+        <div className='flex items-center gap-2 justify-between '>
           <Link
             href='https://seminarroom.in'
             target='_blank'
-            className='hover:underline font-semibold text-lg'
+            className='hover:underline font-semibold text-md'
           >
             Seminarroom
           </Link>
@@ -31,8 +31,8 @@ const Work = () => {
         </ul>
       </div>
       <div className='pb-8 mt-6'>
-        <div className='flex justify-between'>
-          <h4 className='font-semibold text-lg'>Softnerve Technologies</h4>
+        <div className='flex justify-between items-center gap-2 '>
+          <h4 className='font-semibold text-md'>Softnerve Technologies</h4>
           <span className='text-sm text-gray-400'>Feb 2023 - Dec 2023</span>
         </div>
         <p className='italic text-sm font-light'>Frontend Developer Intern</p>
