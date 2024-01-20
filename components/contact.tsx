@@ -3,7 +3,7 @@ import { Button } from './ui/button'
 
 const Contact = () => {
   return (
-    <section className='border-2 rounded-xl my-8'>
+    <section className='border-2 rounded-xl my-6 mb-10'>
       <div className='py-8 px-4 mx-auto max-w-screen-md'>
         <h2 className='mb-4 text-3xl tracking-tight font-extrabold text-center '>
           Contact Me
@@ -17,14 +17,14 @@ const Contact = () => {
           <div>
             <label
               htmlFor='email'
-              className='block mb-2 text-sm font-medium'
+              className='block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400'
             >
               Your email
             </label>
             <input
               type='email'
               id='email'
-              className='shadow-sm bg-gray-50 border border-gray-300 rounded-lg p-2.5 w-2/3'
+              className='p-1.5 text-sm w-2/3 text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500'
               placeholder='name@flowbite.com'
               required
             />
@@ -44,7 +44,7 @@ const Contact = () => {
           </div>
           <Button
             type='submit'
-            className='py-3 px-5 text-sm font-medium text-center text-white rounded-lg  sm:w-fit '
+            className='py-3 px-5 text-sm font-medium text-center  rounded-lg  sm:w-fit '
           >
             Send message
           </Button>
