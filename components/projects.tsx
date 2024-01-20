@@ -9,14 +9,12 @@ const Projects = () => {
         <ProjectCard
           name='Shopwise'
           github='#'
-          image='#'
           tech={['TypeScript', 'Next.js', 'TailwindCSS', 'Supabase', 'Prisma']}
           url='#'
         />
         <ProjectCard
           name='Shopwise'
           github='#'
-          image='#'
           tech={['TypeScript', 'Next.js', 'TailwindCSS', 'Supabase', 'Prisma']}
           url='#'
         />
