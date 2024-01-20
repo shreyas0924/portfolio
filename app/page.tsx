@@ -1,12 +1,14 @@
-import { About } from "@/components/about";
-import Projects from "@/components/projects";
-import Work from "@/components/work";
+import { About } from '@/components/about'
+import Contact from '@/components/contact'
+import Projects from '@/components/projects'
+import Work from '@/components/work'
 export default function Home() {
   return (
-    <main className="">
+    <main className=''>
       <About />
       <Work />
       <Projects />
+      <Contact />
     </main>
   )
 }

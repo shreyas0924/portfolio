@@ -8,7 +8,7 @@ type ProjectProps = {
 }
 export default function ProjectCard({ name, url, github, tech }: ProjectProps) {
   return (
-    <div className='border border-gray-500 p-3 rounded-2xl h-full'>
+    <div className='border-2 p-3 rounded-2xl h-full'>
       <header className=''>
         <div className='mx-auto flex items-center'>
           <h1 className='text-xl font-bold'>{name}</h1>

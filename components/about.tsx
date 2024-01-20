@@ -4,7 +4,7 @@ import { Button } from './ui/button'
 
 export const About = () => {
   return (
-    <main className=' border-b border-gray-600 mt-10 pb-6  '>
+    <main className=' border-b-2 mt-10 pb-6  '>
       <div>
         Hey, I'm <strong>Shreyas P</strong>, a final year CS undergrad. I am a
         passionate <strong>Full Stack Developer</strong> with over{' '}

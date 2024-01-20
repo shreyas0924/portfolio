@@ -3,7 +3,7 @@ import React from 'react'
 
 const Work = () => {
   return (
-    <section className='max-w-2xl mx-auto my-8 border-b border-gray-600'>
+    <section className='max-w-2xl mx-auto my-8 border-b-2'>
       <h3 className='text-xl font-bold mb-4'>Experience</h3>
       <div className='space-y-0'>
         <div className='flex items-center gap-2 justify-between '>
