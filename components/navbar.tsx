@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { ModeToggle } from './theme/mode-toggle'
+import { MoveUpRight } from 'lucide-react'
 
 const Navbar = () => {
   return (
@@ -9,11 +9,12 @@ const Navbar = () => {
         shreyas
       </Link>
       <Link
-        href={`https://drive.google.com/file/d/11WBKQsa_M0z4IKyRsXaLHp2pqWHnmHte/view`}
+        href={`https://drive.google.com/file/d/1jAZ_XdN_zvLLqkrAzsatQzHGlee2Ad1B/view?usp=sharing`}
         target='_blank'
-        className='ml-auto hover:underline '
+        className='ml-auto flex flex-row items-center hover:underline '
       >
-        resume
+        <span>resume</span>
+        <MoveUpRight className='h-[40%] py-auto' />
       </Link>
     </main>
   )
