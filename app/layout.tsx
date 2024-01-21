@@ -4,6 +4,7 @@ import { GeistSans } from 'geist/font/sans'
 import Navbar from '@/components/navbar'
 import { ThemeProvider } from '@/components/theme/theme-provider'
 import { ModeToggle } from '@/components/theme/mode-toggle'
+import { Analytics } from '@vercel/analytics/react'
 
 export const metadata: Metadata = {
   title: 'Shreyas P',
@@ -34,6 +35,7 @@ export default function RootLayout({
             </div>
           </main>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   )
