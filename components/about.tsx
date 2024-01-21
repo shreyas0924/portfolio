@@ -12,7 +12,7 @@ export const About = () => {
       <div>
         Hey, I'm <strong>Shreyas P</strong>, a final year CS undergrad. I am a
         passionate <strong>Full Stack Developer</strong> with over{' '}
-        <strong>6 months</strong> of work experience. I like in building robust
+        <strong>6 months</strong> of work experience. I like building robust
         web applications with{' '}
         <span className='font-semibold '>React and Next.js.</span>
       </div>
