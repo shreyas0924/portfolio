@@ -22,24 +22,24 @@ export const About = () => {
           href={'https://linkedin.com/in/shreyas0924'}
           className='ml-auto'
         >
-          {theme === 'light' ? (
-            <img src='./linkedin1.svg' />
-          ) : (
+          {theme === 'dark' ? (
             <img src='./linkedin2.svg' />
+          ) : (
+            <img src='./linkedin1.svg' />
           )}
         </Link>
         <Link target='_blank' href={'https://github.com/shreyas0924'}>
-          {theme === 'light' ? (
-            <img src='./github1.svg' />
-          ) : (
+          {theme === 'dark' ? (
             <img src='./github2.svg' />
+          ) : (
+            <img src='./github1.svg' />
           )}
         </Link>
         <Link target='_blank' href={'https://twitter.com/shreyas0924'}>
-          {theme === 'light' ? (
-            <img src='./twitter1.svg' width={28} />
-          ) : (
+          {theme === 'dark' ? (
             <img src='./twitter2.svg' width={28} />
+          ) : (
+            <img src='./twitter1.svg' width={28} />
           )}
         </Link>
       </div>

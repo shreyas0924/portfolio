@@ -1,30 +1,48 @@
+'use client'
 import React from 'react'
 import { Badge } from './ui/badge'
+import Link from 'next/link'
+import { Link as LinkToProject } from 'lucide-react'
+import { useTheme } from 'next-themes'
 type ProjectProps = {
   name: string
-  url: string
+  url?: string
   github: string
   tech: string[]
+  description: string
 }
-export default function ProjectCard({ name, url, github, tech }: ProjectProps) {
+export default function ProjectCard({
+  name,
+  url,
+  github,
+  tech,
+  description,
+}: ProjectProps) {
+  const { theme } = useTheme()
   return (
     <div className='border-2 p-3 rounded-2xl h-full'>
       <header className=''>
         <div className='mx-auto flex items-center'>
           <h1 className='text-xl font-bold'>{name}</h1>
-          <div className='flex ml-auto mr-3 gap-5'>
-            <div className=''>{url}</div>
-            <div>{github}</div>
+          <div className='flex ml-auto mr-3 gap-3'>
+            {url && (
+              <Link target='_blank' href={url}>
+                <LinkToProject />
+              </Link>
+            )}
+            <Link target='_blank' href={github}>
+              {theme === 'dark' ? (
+                <img src='./github2.svg' />
+              ) : (
+                <img src='./github1.svg' />
+              )}
+            </Link>
           </div>
         </div>
       </header>
       <div className='grid grid-cols-1'>
         <div className='py-2'>
-          <p className=' mb-4'>
-            An e-commerce platform for books with category-based shopping,
-            wishlist, kart, address checkout, and coupon functionality.
-            Integrated Razorpay for payments.
-          </p>
+          <p className=' mb-4 text-justify pr-4 py-2'>{description}</p>
           <div className='flex flex-wrap gap-2'>
             {tech.map((t) => (
               <Badge>{t}</Badge>
