@@ -19,7 +19,10 @@ const Contact = async () => {
   }
 
   return (
-    <section className='border-2 rounded-xl mt-2 mb-10'>
+    <section
+      className='border-2 rounded-xl mt-2 mb-10 scroll-smooth'
+      id='contact'
+    >
       <div className='py-8 px-4 mx-auto max-w-screen-md'>
         <h2 className='mb-4 text-3xl tracking-tight font-extrabold text-center '>
           Contact Me

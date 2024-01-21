@@ -17,7 +17,9 @@ export const About = () => {
         <span className='font-semibold '>React and Next.js.</span>
       </div>
       <div className='flex flex-row gap-2 items-center mt-8'>
-        <Button className='rounded-full'>Contact Me</Button>
+        <Link href='#contact' className='scroll-smooth'>
+          <Button className='rounded-full'>Contact Me</Button>
+        </Link>
         <Link
           target='_blank'
           href={'https://linkedin.com/in/shreyas0924'}
