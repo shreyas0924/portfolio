@@ -2,7 +2,7 @@
 import React from 'react'
 import { Badge } from './ui/badge'
 import Link from 'next/link'
-import { Link as LinkToProject } from 'lucide-react'
+import { Github, GithubIcon, Link as LinkToProject } from 'lucide-react'
 import { useTheme } from 'next-themes'
 type ProjectProps = {
   name: string
@@ -31,11 +31,7 @@ export default function ProjectCard({
               </Link>
             )}
             <Link target='_blank' href={github}>
-              {theme === 'dark' ? (
-                <img src='./github2.svg' />
-              ) : (
-                <img src='./github1.svg' />
-              )}
+              <Github className='border-2 border-black dark:border-white p-0.5 rounded-md' />
             </Link>
           </div>
         </div>

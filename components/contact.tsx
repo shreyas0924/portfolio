@@ -24,12 +24,7 @@ const Contact = async () => {
         <h2 className='mb-4 text-3xl tracking-tight font-extrabold text-center '>
           Contact Me
         </h2>
-        <p className='mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-lg'>
-          You can contact me directly at{' '}
-          <a className='underline'>shreyasp0924@gmail.com</a> or through this
-          form.
-        </p>
-        <form action={handleSubmit} className='space-y-8'>
+        <form action={handleSubmit} className='mt-4 space-y-8'>
           <div>
             <label
               htmlFor='email'

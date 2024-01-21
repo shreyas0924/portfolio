@@ -3,6 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 import { Button } from './ui/button'
 import { useTheme } from 'next-themes'
+import { Github, Linkedin, Twitter } from 'lucide-react'
 
 export const About = () => {
   const { theme } = useTheme()
@@ -20,27 +21,15 @@ export const About = () => {
         <Link
           target='_blank'
           href={'https://linkedin.com/in/shreyas0924'}
-          className='ml-auto'
+          className='ml-auto  '
         >
-          {theme === 'dark' ? (
-            <img src='./linkedin2.svg' />
-          ) : (
-            <img src='./linkedin1.svg' />
-          )}
+          <Linkedin className='border-2 border-black dark:border-white p-0.5 rounded-md' />
         </Link>
         <Link target='_blank' href={'https://github.com/shreyas0924'}>
-          {theme === 'dark' ? (
-            <img src='./github2.svg' />
-          ) : (
-            <img src='./github1.svg' />
-          )}
+          <Github className='border-2 border-black dark:border-white p-0.5 rounded-md' />
         </Link>
         <Link target='_blank' href={'https://twitter.com/shreyas0924'}>
-          {theme === 'dark' ? (
-            <img src='./twitter2.svg' width={28} />
-          ) : (
-            <img src='./twitter1.svg' width={28} />
-          )}
+          <Twitter className='border-2 border-black dark:border-white p-0.5 rounded-md' />
         </Link>
       </div>
     </main>
