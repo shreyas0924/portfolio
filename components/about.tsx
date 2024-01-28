@@ -2,11 +2,9 @@
 import Link from "next/link";
 import React from "react";
 import { Button } from "./ui/button";
-import { useTheme } from "next-themes";
 import { Github, Linkedin, Twitter } from "lucide-react";
 
 export const About = () => {
-  const { theme } = useTheme();
   return (
     <main className=" border-b-2 mt-10 pb-6  ">
       <div>
