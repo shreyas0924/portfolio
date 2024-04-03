@@ -9,7 +9,7 @@ const Navbar = () => {
         shreyas
       </Link>
       <Link
-        href={`https://drive.google.com/file/d/1jAZ_XdN_zvLLqkrAzsatQzHGlee2Ad1B/view?usp=sharing`}
+        href={`https://drive.google.com/file/d/1-eWQ7USNNHBAhooSWphuuaBQxtvh2mtn/view?usp=sharing`}
         target='_blank'
         className='ml-auto flex flex-row items-center hover:underline '
       >
