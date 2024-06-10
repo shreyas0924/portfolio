@@ -5,13 +5,12 @@ import { Github, Linkedin, Twitter } from "lucide-react";
 
 export const About = () => {
   return (
-    <main className=" border-b-2 mt-10 pb-6  ">
+    <main className="border-b-2 mt-10 pb-6">
       <div>
-        Hey, I'm <strong>Shreyas P</strong>, a final year CS undergrad. I am a
-        passionate <strong>Full Stack Developer</strong> with over{" "}
-        <strong>6 months</strong> of work experience. I like building robust web
-        applications with{" "}
-        <span className="font-semibold ">React and Next.js.</span>
+        Hey, I'm <strong>Shreyas P</strong>. I am a passionate{" "}
+        <strong>Full Stack Developer</strong> with over{" "}
+        <strong>7 months</strong> of work experience. I like building robust web
+        applications with <strong>React and Next.js.</strong>
       </div>
       <div className="flex flex-row gap-2 items-center mt-8">
         <Link href="#contact" className="scroll-smooth">
