@@ -3,8 +3,8 @@ import "./globals.css";
 import { GeistSans } from "geist/font/sans";
 import Navbar from "@/components/navbar";
 import { ThemeProvider } from "@/components/theme/theme-provider";
-import { ModeToggle } from "@/components/theme/mode-toggle";
 import { Analytics } from "@vercel/analytics/react";
+import { DockDemo } from "@/components/links";
 
 export const metadata: Metadata = {
   title: "Shreyas P",
@@ -30,8 +30,8 @@ export default function RootLayout({
               <Navbar />
               {children}
             </div>
-            <div className="fixed bottom-7 right-7">
-              <ModeToggle />
+            <div className="fixed bottom-4 left-0 right-0">
+              <DockDemo />
             </div>
           </main>
         </ThemeProvider>

@@ -14,9 +14,9 @@ const Work = () => {
           >
             TheMoonDevs
           </Link>
-          <span className="text-sm text-gray-400">May 2024 - Present</span>
+          <span className="text-sm text-gray-400">Apr 2024 - Jun 2024</span>
         </div>
-        <p className="italic text-sm font-light">Frontend Developer Intern</p>
+        <p className="italic text-sm font-light">Fullstack Developer Intern</p>
         <ul className="list-disc pl-4 pt-3">
           <li>
             Developed and implemented new features across multiple repositories
@@ -60,7 +60,7 @@ const Work = () => {
       <div className="pb-8 mt-6">
         <div className="flex justify-between items-center gap-1">
           <h4 className="font-semibold text-md">Softnerve Technologies</h4>
-          <span className="text-sm text-gray-400">Feb 2023 - Mar 2023</span>
+          <span className="text-sm text-gray-400">Feb 2023 - Apr 2023</span>
         </div>
         <p className="italic text-sm font-light">Software Engineer Intern</p>
         <ul className="list-disc pl-4 pt-3">
