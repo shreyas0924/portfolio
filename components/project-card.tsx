@@ -26,7 +26,7 @@ export default function ProjectCard({
   description,
 }: ProjectProps) {
   return (
-    <div className=" p-3 rounded-2xl h-full">
+    <div className="border p-5 rounded-2xl h-full">
       <header className="">
         <div className="mx-auto flex items-center">
           <h1 className="text-xl font-bold">{name}</h1>
