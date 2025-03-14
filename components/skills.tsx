@@ -9,19 +9,20 @@ const SkillsButton = ({ children }: { children: React.ReactNode }) => {
 };
 
 const skills: string[] = [
-  "HTML",
-  "CSS",
+  "HTML/CSS",
   "JavaScript",
   "TypeScript",
   "React",
-  "Next.js",
-  "Redux",
-  "Node.js",
-  "TailwindCSS",
-  "Express",
-  "SQL",
-  "AWS",
+  "Java",
+  "Spring Boot",
   "Docker",
+  "Node.js",
+  "Express",
+  "PostgreSQL/MySQL",
+  "MongoDB",
+  "AWS",
+  "Kubernetes",
+  "CI/CD"
 ];
 
 export default function Skills() {
